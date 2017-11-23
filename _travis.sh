@@ -31,7 +31,7 @@ function default(){
   cd ../
 
   rm -rf .deploy_git/*
-  git rm .
+  git rm -r .
   cp -rf ./public/* .deploy_git/
 
   cd .deploy_git
@@ -49,6 +49,8 @@ cat <<EOF >> README.md
 Job ID   | $TRAVIS_JOB_ID | 
 Job NUM  | $TRAVIS_JOB_NUMBER | 
 EOF
+
+  cat index.html
 
   git add .
   git commit -m "Build by Travis CI($TRAVIS_JOB_ID)"
