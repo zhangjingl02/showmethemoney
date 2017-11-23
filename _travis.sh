@@ -31,8 +31,10 @@ function default(){
   cd ../
 
   rm -rf .deploy_git/*
-  git rm
+  git rm .
   cp -rf ./public/* .deploy_git/
+
+  cd .deploy_git
 
 cat <<EOF >> README.md 
 部署状态 | 集成结果 | 参考值
