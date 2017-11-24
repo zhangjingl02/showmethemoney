@@ -5,18 +5,12 @@
 menu:
 - page: home
   url: /
-  icon: 
-- page: 前端
-  url: /categories/前端/
-  icon: 
-- page: 后端
-  url: /categories/后端/
-  icon: 
+  icon:
 - page: 工具
-  url: /categories/工具/
+  url: /categories/tools/
   icon: 
 - page: 资源
-  url: /categories/资源/
+  url: /categories/resoureces/
   icon: 
 
 ## favicon 
@@ -60,10 +54,10 @@ notification: |-
 social:
  - name: Github
    icon: git
-   href: //github.com/shenliyang
+   href: //github.com/zhangjingl02
  - name: 邮箱
    icon: envelope-o
-   href: mailto:snippet@91h5.cc
+   href: mailto:zhangjingl02@126.com
  - name: 联系QQ
    icon: qq
    href: /
@@ -128,7 +122,7 @@ declaration:
   enable: true
   title: '转载声明'
   tip: |-
-      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">Snippet</a>
+      商业转载请联系作者获得授权,非商业转载请注明出处 © <a href="" target="_blank">zhangjingl02</a>
 
 
 ## 主题评论
