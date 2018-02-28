@@ -1,6 +1,6 @@
 ---
 title: 树莓派安装 phantomjs&casperjs
-tags: nodejs,phantomjs,casperjs
+tags: nodejs phantomjs casperjs
 categories: nodejs
 date: 2018-2-28
 ---
@@ -11,17 +11,19 @@ date: 2018-2-28
 ```jshelllanguage
 sudo apt-get install phantomjs
 ```
+
 检查安装结果
 ```jshelllanguage
 phantomjs --version
 ```
-安装casperjs
 
+安装casperjs
 ```jshelllanguage
 https://github.com/casperjs/casperjs.git 
 cp -R casperjs/ /usr/local/src/
 ln -sf /usr/local/src/casperjs/bin/casperjs /usr/local/bin/casperjs
 ```
+
 检查安装结果
 ```jshelllanguage
 casperjs --version
