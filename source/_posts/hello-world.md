@@ -21,6 +21,8 @@ $ hexo server
 
 More info: [Server](https://hexo.io/docs/server.html)
 
+Testing: [Testting](http://www.ruanyifeng.com/blog/2018/02/docker-wordpress-tutorial.html)
+
 ### Generate static files
 
 ``` bash
